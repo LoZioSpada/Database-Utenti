@@ -11,21 +11,27 @@
 
 <body>
     <h1>Database di utenti!</h1>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Filtra per:
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Nome</a></li>
-            <li><a class="dropdown-item" href="#">Username</a></li>
-            <li><a class="dropdown-item" href="#">Email</a></li>
-        </ul>
+    <div>
+        <div>
+            <!-- <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Filtra per :</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" label="Nome">Nome</a></li>
+                <li><a class="dropdown-item" href="#" label="Username">Username</a></li>
+                <li><a class="dropdown-item" href="#" label="Email">Email</a></li>
+            </ul> -->
+            <select id="filtro">
+                <option value="name">Nome</option>
+                <option value="username">Username</option>
+                <option value="email">Email</option>
+            </select>
+            <input id="ricerca" type="text" placeholder="Cerca...">
+        </div>
     </div>
 
     <div class="container">
         <div class="row">
             <!-- QUI ANDIAMO A COMPILARE CIO CHE L'API CI FORNISCE -->
-            
         </div>
     </div>
 
